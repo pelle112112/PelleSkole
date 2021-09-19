@@ -22,7 +22,8 @@ class DiceCup {
     }
   }
 
-  void sortDie () {
+
+  void sortDie () { //Planen var at funktionen skulle lagre terningeværdierne i et array, men det virker ikke
     for (int i = 0; i < 10; i++) {
       if (diceValues[i] == 6) {
         dicePlacement[0][i] = dieArray[i];
@@ -52,6 +53,8 @@ class DiceCup {
       println(dicePlacement[1][i]);
     }
 
+
+    //Dette loop skulle tegne terningerne sorteret, men det virker ikke.
     //for (int i = 0; i < sixes; i++) {
       
       //dicePlacement[0][i].draw(int(x+((i+1)*size*1.5)), y, size); 

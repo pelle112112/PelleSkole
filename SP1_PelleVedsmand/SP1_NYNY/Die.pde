@@ -27,6 +27,8 @@ class Die {
     
     
     fill(random(255), random(255), random(255));
+    
+    //Jeg benyttede mig af en switch, men ændrede det senere. Begge fungerede på samme måde, men switch ville være en bedre metode
 
     if (dieValue == 1) {
       ellipse(x+50, y+50, 15, 15);
