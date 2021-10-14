@@ -20,20 +20,22 @@ public class Dog {
         if (isHungry == true){
             isHungry = false;
             System.out.println(name + " has been fed");
+            return "Hunden er fodret";
         }
-        return "Hunden er fodret";
+        else{
+            System.out.println("Hunden er ikke sulten");
+            return "Hunden er ikke sulten";
+        }
+
+
     }
 
-    public ArrayList<Dog> setOffSpring(Dog dog){
-
+    public void setOffSpring(Dog dog){
         offSpring.add(dog);
-        return offSpring;
     }
 
     public ArrayList<Dog> getOffSpring(){
-
         return offSpring;
-
     }
 
     public String getOwnerName() {

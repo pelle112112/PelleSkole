@@ -1,14 +1,20 @@
 @startuml
 
 Class ComputeVAT{
-    + Dialog dialog = new Dialog();
-    + static CalculateVAT calc = new CalculateVAT();
-    + static View view = new View();
+     + static Dialog dialog
+     + static CalculateVAT calc
+     + static View view
+     + int PRCVAT = 25;
+     + String MSG = "MOMS";
+     + String CURRENCY = "Kr";
+     + Main
 }
-Class Dialog
 
-ComputeVAT -- Dialog
+Class Controller{
+
+    runController(View view, CalculateVAT calc, Dialog dialog)
 
 
 
+}
 @enduml
