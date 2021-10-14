@@ -5,19 +5,18 @@ import java.util.Arrays;
 public class DogKennel {
 
     public static void main(String[] args) {
-        //TODO:
-        // lav en ny hund
+
         Dog newDog = new Dog("Luffa",true);
         Dog newDog2 = new Dog("Ronja",true);
         Dog myDog = new Dog("woodie", true);
-        // sæt en ejer
+
         Owner Henning = new Owner();
         myDog.setOwner(Henning);
-        // TODO: tilføj to hvalpe når hundeklassen er klar til hvalpe
         myDog.setOffSpring(newDog);
+        myDog.setOffSpring(newDog2);
 
         // print alle hvalpe
-        ArrayList<Dog> myOff = myDog.setOffSpring(newDog2);
+        ArrayList<Dog> myOff = myDog.getOffSpring();
         for (Dog str: myOff) {
             System.out.println("Offspring: " + myDog.getOffSpring());
         }

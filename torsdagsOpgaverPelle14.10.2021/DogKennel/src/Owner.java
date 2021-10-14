@@ -1,3 +1,3 @@
 public class Owner {
-    String name;
+    public String name;
 }

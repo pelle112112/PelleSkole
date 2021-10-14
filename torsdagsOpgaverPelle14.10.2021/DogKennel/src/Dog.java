@@ -7,8 +7,8 @@ public class Dog {
 
     String name;
     boolean isHungry;
-    private Owner ejer;
-    private ArrayList<Dog> offSpring = new ArrayList<>();
+    public Owner ejer;
+    public ArrayList<Dog> offSpring = new ArrayList<>();
 
 
     public Dog(String name, boolean isHungry) {

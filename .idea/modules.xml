@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/torsdagsOpgaverPelle14.10.2021/ComputeVAT/ComputeVAT.iml" filepath="$PROJECT_DIR$/torsdagsOpgaverPelle14.10.2021/ComputeVAT/ComputeVAT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/torsdagsOpgaverPelle14.10.2021/DogKennel/DogKennel.iml" filepath="$PROJECT_DIR$/torsdagsOpgaverPelle14.10.2021/DogKennel/DogKennel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PelleSkole.iml" filepath="$PROJECT_DIR$/PelleSkole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercises41/exercises41.iml" filepath="$PROJECT_DIR$/exercises41/exercises41.iml" />
+    </modules>
+  </component>
+</project>
