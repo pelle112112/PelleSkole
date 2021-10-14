@@ -1,0 +1,14 @@
+@startuml
+
+Class ComputeVAT{
+    + Dialog dialog = new Dialog();
+    + static CalculateVAT calc = new CalculateVAT();
+    + static View view = new View();
+}
+Class Dialog
+
+ComputeVAT -- Dialog
+
+
+
+@enduml
