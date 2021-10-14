@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 public class ComputeVAT {
     static Dialog dialog = new Dialog();
     static CalculateVAT calc = new CalculateVAT();

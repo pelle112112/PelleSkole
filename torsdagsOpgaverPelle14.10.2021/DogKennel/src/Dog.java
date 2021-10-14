@@ -21,18 +21,17 @@ public class Dog {
             isHungry = false;
             System.out.println(name + " has been fed");
         }
-        String fodret ="Hunden er fodret";
-        return fodret;
+        return "Hunden er fodret";
     }
 
     public ArrayList<Dog> setOffSpring(Dog dog){
 
         offSpring.add(dog);
-        //System.out.println("arraylist: " + offSpring);
         return offSpring;
     }
 
     public ArrayList<Dog> getOffSpring(){
+
         return offSpring;
 
     }
