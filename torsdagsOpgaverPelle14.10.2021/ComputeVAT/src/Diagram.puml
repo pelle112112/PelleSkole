@@ -7,14 +7,42 @@ Class ComputeVAT{
      + int PRCVAT = 25;
      + String MSG = "MOMS";
      + String CURRENCY = "Kr";
-     + Main
+     + Main()
 }
-
+ComputeVAT -> Controller
 Class Controller{
+    runController(View, CalculateVAT, Dialog)
+    + String MSG = "MOMS";
+    + double userIn = dialog.doDiag();
+    + double moms = calc.doVAT(userIn);
+    view.doView(moms,MSG);
+}
+Controller -> View
 
-    runController(View view, CalculateVAT calc, Dialog dialog)
 
+Class View{
 
+    + static void doView(double result, String typeOfResult)
+    - String MSG = "MOMS";
+    - String CURRENCY = "Kr";
 
 }
+
+Controller -> Dialog
+
+Class Dialog{
+    + public static double doDiag();
+    - Scanner myScan = new Scanner(System.in);
+    - double number = myScan.nextDouble();
+
+}
+
+Controller -> CalculateVAT
+Class CalculateVAT{
+    + static double doVAT(double number)
+    - int PRCVAT = 25;
+    - double VAT = number / 100 * PRCVAT;
+
+}
+
 @enduml
