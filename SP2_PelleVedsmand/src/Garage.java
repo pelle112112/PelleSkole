@@ -1,16 +1,17 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.ArrayList;
 
 public class Garage  extends ArrayList{
+
     private static final long serialVersionUID = 1L;
-    ArrayList<Bil> arrayList = new ArrayList<Bil>();
+    ArrayList<Bil> arrayList = new ArrayList<>();
     String garageNavn;
 
 
     void tilføjBilTilGarage(Bil bil){
         arrayList.add(bil);
     }
+
+
     void udregnGrønAfgift(){
         double samletAfgift = 0;
         for(Bil bil: arrayList){
