@@ -16,7 +16,7 @@ public class Garage  extends ArrayList{
         for(Bil bil: arrayList){
             samletAfgift = (samletAfgift + bil.beregnGrønAfgift());
         }
-        System.out.println("Den samlede afgift er lig med: " + samletAfgift);
+        System.out.println("Den samlede afgift er lig med: " + samletAfgift + " kr");
     }
 
     @Override

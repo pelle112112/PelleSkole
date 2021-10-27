@@ -47,16 +47,16 @@ public class Dieselbil extends Bil{
         if(kmPrl >= 20 && kmPrl <= 50){
             grønAfgift = 130;
         }
-        if(kmPrl >= 15 && kmPrl < 20){
+        else if(kmPrl >= 15 && kmPrl < 20){
             grønAfgift = 1390;
         }
-        if(kmPrl >= 10 && kmPrl < 15){
+        else if(kmPrl >= 10 && kmPrl < 15){
             grønAfgift = 1850;
         }
-        if(kmPrl >= 5 && kmPrl < 10){
+        else if(kmPrl >= 5 && kmPrl < 10){
             grønAfgift = 2770;
         }
-        if(kmPrl >= 0 && kmPrl < 5){
+        else if(kmPrl >= 0 && kmPrl < 5){
             grønAfgift = 15260;
         }
         if (harPartikelFilter == false){
